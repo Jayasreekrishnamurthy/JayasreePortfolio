@@ -1,6 +1,6 @@
 import React from 'react'
 import { AiFillGithub, AiFillLinkedin, AiOutlineTwitter, AiFillYoutube } from "react-icons/ai";
-import Typical from 'react-typical'
+// import Typical from 'react-typical'
 import "../../assets/css/Profile.css"
 
 const Profile = () => {
@@ -40,7 +40,7 @@ const Profile = () => {
                 {" "}
                 <h1>
                     {" "}
-                    <Typical
+                    {/* <Typical
                     loop={Infinity}
                     steps={[
                         "Full stack Developer",
@@ -52,7 +52,7 @@ const Profile = () => {
                         "Front-End Developer",
                         2000,
                     ]}
-                    />
+                    /> */}
                 </h1>
                 <span className='profile-role-tagline'>
                 Full Stack Developer with 1+ years of hands-on experience
