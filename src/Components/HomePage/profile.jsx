@@ -1,7 +1,9 @@
 import React from 'react'
 import { AiFillGithub, AiFillLinkedin, AiOutlineTwitter, AiFillYoutube } from "react-icons/ai";
-// import Typical from 'react-typical'
 import "../../assets/css/Profile.css"
+import Typewriter from 'typewriter-effect';
+
+
 
 const Profile = () => {
   return (
@@ -40,19 +42,13 @@ const Profile = () => {
                 {" "}
                 <h1>
                     {" "}
-                    {/* <Typical
-                    loop={Infinity}
-                    steps={[
-                        "Full stack Developer",
-                        2000,
-                        "MERN",
-                        2000,
-                        "Javascript",
-                        2000,
-                        "Front-End Developer",
-                        2000,
-                    ]}
-                    /> */}
+                    <Typewriter
+                          options={{
+                          strings: ['Full stack Developer', 'MERN', 'Javascript','Front-End Developer'],
+                          autoStart: true,
+                          loop: true,
+                          }}
+                    />
                 </h1>
                 <span className='profile-role-tagline'>
                 Full Stack Developer with 1+ years of hands-on experience
